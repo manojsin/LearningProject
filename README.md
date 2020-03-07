@@ -1,1 +1,1 @@
-# LearningProject 1 ..2...3
+# LearningProject 1
