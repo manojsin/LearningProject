@@ -83,14 +83,14 @@
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
-            <plugin>
+           <!-- <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>1.3.8.RELEASE</version>
                 <configuration>
                     <addResources>true</addResources>
                 </configuration>
-            </plugin>
+            </plugin>-->
             <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -143,6 +143,4 @@
             </plugin>-->
         </plugins>
     </build>
-
-
 </project>
