@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>SplitWise</groupId>
-    <artifactId>.com.groww</artifactId>
+    <artifactId>com.groww</artifactId>
     <version>1.0-SNAPSHOT</version>
 <dependencies>
     <dependency>
@@ -78,6 +78,19 @@
         <artifactId>mail</artifactId>
         <version>1.4.3</version>
     </dependency>
+    <!--AWS S3 Storage-->
+    <dependency>
+        <groupId>com.amazonaws</groupId>
+        <artifactId>aws-java-sdk-s3</artifactId>
+        <version>1.11.688</version>
+    </dependency>
+
+    <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.6</version>
+    </dependency>
+
 
 </dependencies>
     <build>
