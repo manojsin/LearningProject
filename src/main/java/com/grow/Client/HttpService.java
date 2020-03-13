@@ -140,9 +140,9 @@ public class HttpService {
         logger.debug("Getting data from {} with body {}", url, reqBody);
         HttpEntity<MultiValueMap<String, String>> request = null;
         if (reqBody != null) {
-            request = new HttpEntity(reqBody, headers);
+            request = new HttpEntity<>(reqBody, headers);
         } else {
-            request = new HttpEntity(headers);
+            request = new HttpEntity<>(headers);
         }
         String response = restTemplate.postForEntity(url, request, String.class).getBody();
         logger.debug("Response received {} from url [ {} ]", response, url);
